@@ -1,0 +1,127 @@
+<?php
+/*
+  default.thtml design for CakePHP (http://www.cakephp.org)
+  ported from http://www.oswd.org/ (open source template)
+  
+  The designs distributed at OSWD each carry their own seperate
+  open source license which is chosen by the designer 
+  when it is submitted to the site.
+  
+  ported by Shunro Dozono (dozono :@nospam@: gmail.com)
+  2006/7/10
+*/
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CakePHP : The PHP Rapid Development Framework :: <?php echo $title_for_layout?></title>
+        <?php echo $html->charset('UTF-8')?>
+	<meta name="description" content="Studio7designs - Professional Photography and Graphic Designs, Victoria BC Canada" />
+	<meta name="keywords" content="Studio7designs" />
+	<meta name="author" content="Aran / Original design: Aran Down - http://www.studio7designs.com" />
+        <?php echo $html->css('cake.forms', 'stylesheet', array("media"=>"all" ));?>
+        <?php echo $html->css('nautica02liquid', 'stylesheet', array("media"=>"all" ));?>
+</head>
+
+<body>
+
+<div id="wrapper-menu-top">
+<div id="menu-top">
+	<ul>
+		<li><a href="http://cakephp.org/" title="Downloads"><span>CakePHP Home</span></a></li>
+		<li><a href="http://manual.cakephp.org" title="Gallery"><span>Manual</span></a></li>
+		<li><a href="http://api.cakephp.org/" title="Links"><span>API</span></a></li>
+		<li><a href="http://bakery.cakephp.org" title="Links"><span>Bakery</span></a></li>
+		<li><a href="https://trac.cakephp.org" title="Links"><span>Trac</span></a></li>
+		<li><a href="http://cakeforge.org" title="Links"><span>CakeForge</span></a></li>
+	</ul>
+</div><!--menu-top-->
+</div><!--wrapper-menu-top-->
+
+<div id="wrapper-header">
+<div id="header">
+<div id="wrapper-header2">
+<div id="wrapper-header3">
+	<h1>Nautica 2.2 Liquid</h1>
+</div>
+</div>
+</div>
+</div>
+
+<div id="wrapper-content">
+<div id="wrapper-menu-page">
+	<div id="menu-page">
+	<h3>Page navigation</h3>
+	<ul>
+		<li><a href="#">Example Link 1</a></li>
+		<li><a href="#">Example Link 2</a></li>
+		<li><a href="#">Example Link 3</a></li>
+		<li><a href="#">Example Link 4</a></li>
+	</ul>
+	
+	<h3>sub page menu</h3>
+	<ul>
+		<li><a href="#">Example Link 1</a></li>
+		<li><a href="#">Example Link 2</a></li>
+		<li><a href="#">Example Link 3</a></li>
+		<li><a href="#">Example Link 4</a></li>
+	</ul>
+	
+	<p>
+        <?php echo $html->image('logo.png', array("alt"=>"","height"=>"80","width"=>"165"));?>
+        </p>
+</div><!--menu-page-->
+</div>
+<div id="content">
+	
+<h2>Nautica2.2 Liquid</h2>
+<p>Design by: <a href="http://www.studio7designs.com">Nautica</a><br />
+Coding by: <a href="http://www.openwebdesign.org/userinfo.phtml?user=mejobloggs" title="Go to mejobloggs' OWD user page">mejobloggs</a></p>
+<p><a href="http://www.openwebdesign.org/userinfo.phtml?user=mejobloggs">mejobloggs </a>- &quot; This is where I describe all the good things, such as the liquid
+      layout,
+      font
+      resize
+      friendly
+      (try
+      it),
+      slightly
+      darker
+      font
+      for increased readability, slightly larger font too. Want it wider/narrower?
+      Check out line 14 in the css. At 80% width, this design can manage a modest
+      1920px wide. Tested and great in 800x600+, IE5.5, IE6, FF 1.51, Opera 8.53...What?
+    You are still here? Go download it already! <br />
+    Oh, and bugs... We definitely want to know if you find any.</p>
+
+<?php if ($this->controller->Session->check('Message.flash')) $this->controller->Session->flash(); ?>
+<?php echo $content_for_layout?>
+
+<p>Over to you Nautica...&quot;</p>
+<p><a href="http://www.studio7designs.com">Nautica </a>- &quot; First off this design was a great collaboration, I worked with the layout and colors etc and mejobloggs did an amazing job of totally rewriting the original Nautica02.2 into a liquid design that is about as standard compliant as you can get! <br />
+  We are both super busy right now, but we will be working on this design more, and also a few other designs so keep your eyes out for some fun designs in the next while. You can see the ' latest and greatest ' updates to this template at <a href="http://www.studio7designs.com/">www.studio7designs.com</a> &quot; </p>
+</div>
+</div>
+
+<div id="wrapper-footer">
+<div id="footer">
+Design by <a href="http://www.studio7designs.com">studio7designs</a> | copyright 2006 your name
+</div>
+</div>
+<p>
+ CakePHP : <a href="http://www.cakefoundation.org/pages/copyright/">&copy; 2006 Cake Software Foundation, Inc.</a>
+</p>
+<a href="http://www.w3c.org/" target="_new">
+ <?php echo $html->image('w3c_css.png', array('alt'=>"valid css", 'border'=>"0"))?>
+</a>
+<a href="http://www.w3c.org/" target="_new">
+ <?php echo $html->image('w3c_xhtml10.png', array('alt'=>"valid xhtml", 'border'=>"0"))?>
+</a>
+<a href="http://www.cakephp.org/" target="_new">
+ <?php echo $html->image('cake.power.png', array('alt'=>"CakePHP : Rapid Development Framework", 'border'=>"0"))?>
+</a>
+
+<?php echo $cakeDebug;?>
+	
+
+</body>
+</html>

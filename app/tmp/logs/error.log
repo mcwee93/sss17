@@ -1,0 +1,578 @@
+2014-02-24 15:40:28 Error: [MissingControllerException] Controller class FredsController could not be found.
+Exception Attributes: array (
+  'class' => 'FredsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_4/freds/qwerty/99
+Stack Trace:
+#0 F:\davison2014\xampp\htdocs\cakephp_2_4\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-16 17:00:37 Error: Fatal Error (1): Call to a member function login() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\UsersController.php, line 22]
+2015-03-16 17:00:38 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /uscms26/users/login
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 22, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:00:59 Error: Fatal Error (1): Call to a member function deny() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\PostsController.php, line 10]
+2015-03-16 17:00:59 Error: [FatalErrorException] Call to a member function deny() on null
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:01:09 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /uscms26/Post/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-16 17:01:26 Error: Fatal Error (1): Call to a member function deny() on null in [F:\sss_md1\htdocs\uscms26\app\Controller\PostsController.php, line 10]
+2015-03-16 17:01:26 Error: [FatalErrorException] Call to a member function deny() on null
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#2 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'F:\\sss_md1\\htdo...', 10, Array)
+#3 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-16 17:02:43 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /uscms26/Posts/
+Stack Trace:
+#0 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 F:\sss_md1\htdocs\uscms26\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 F:\sss_md1\htdocs\uscms26\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PostsController))
+#7 F:\sss_md1\htdocs\uscms26\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 F:\sss_md1\htdocs\uscms26\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 F:\sss_md1\htdocs\uscms26\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-06 17:41:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'cakephpuser\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /sss_app/users/login
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\login.ctp(3): FormHelper->create('User', Array)
+#9 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(961): include('E:\\ScottMcwee_s...')
+#10 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(923): View->_evaluate('E:\\ScottMcwee_s...', Array)
+#11 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(473): View->_render('E:\\ScottMcwee_s...')
+#12 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-06 17:45:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'cakephpuser\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /sss_app/users/login
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\login.ctp(3): FormHelper->create('User', Array)
+#9 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(961): include('E:\\ScottMcwee_s...')
+#10 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(923): View->_evaluate('E:\\ScottMcwee_s...', Array)
+#11 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(473): View->_render('E:\\ScottMcwee_s...')
+#12 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-06 17:51:18 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'cakephpuser\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /sss_app/users/login
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3617): ConnectionManager::getDataSource('default')
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(3644): Model->setSource('users')
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\login.ctp(3): FormHelper->create('User', Array)
+#9 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(961): include('E:\\ScottMcwee_s...')
+#10 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(923): View->_evaluate('E:\\ScottMcwee_s...', Array)
+#11 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(473): View->_render('E:\\ScottMcwee_s...')
+#12 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-06 17:56:05 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /sss_app/users/register
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-06 18:48:58 Error: [BadRequestException] Invalid parameters
+Request URL: /sss_app/debug_kit/toolbar_access/sql_explain
+Stack Trace:
+#0 [internal function]: ToolbarAccessController->sql_explain()
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ToolbarAccessController), Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ToolbarAccessController), Object(CakeRequest))
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-06 19:57:33 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Posts\view.ctp, line 28]
+2015-05-06 19:57:34 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/posts/view/43
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 28, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 28, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-06 21:28:59 Error: [MissingActionException] Action AppController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'users',
+)
+Request URL: /sss_app/app/users
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-06 21:34:51 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/logout
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-06 21:35:24 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/home
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-06 21:36:03 Error: [MissingControllerException] Controller class Appcontroller.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Appcontroller.phpController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/appcontroller.php
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-06 22:08:40 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/logout/logout
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 19:24:55 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\AppController.php, line 35]
+2015-05-08 19:24:56 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /sss_app/posts
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 35, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 35, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 22:23:19 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 22:24:18 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 22:26:27 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 22:27:39 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PostsController.php, line 188]
+2015-05-08 22:27:40 Error: [FatalErrorException] syntax error, unexpected '?>', expecting function (T_FUNCTION)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 188)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 188, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 188, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 22:42:43 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 22:43:38 Error: [MissingControllerException] Controller class OtherController could not be found.
+Exception Attributes: array (
+  'class' => 'OtherController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 23:10:36 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /sss_app/pages/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 23:11:33 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /sss_app/pages/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 23:14:12 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-08 23:14:29 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-09 16:06:46 Error: Fatal Error (1): Class 'AppController' not found in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\UsersController.php, line 2]
+2015-05-09 16:06:47 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /sss_app/users/login
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 2, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 2, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 16:06:58 Error: Fatal Error (1): Class 'AppController' not found in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PagesController.php, line 31]
+2015-05-09 16:06:59 Error: [FatalErrorException] Class 'AppController' not found
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 31, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppContr...', 'E:\\ScottMcwee_s...', 31, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 16:23:21 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-09 16:26:37 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Pages\index.ctp, line 5]
+2015-05-09 16:26:38 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 5, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 5, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:09:14 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\index.ctp, line 24]
+2015-05-09 17:09:15 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/users/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:09:32 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\index.ctp, line 24]
+2015-05-09 17:09:34 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/users/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:10:12 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\index.ctp, line 24]
+2015-05-09 17:10:13 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /sss_app/users/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:10:30 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\index.ctp, line 24]
+2015-05-09 17:10:31 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/users/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:11:00 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Users\index.ctp, line 24]
+2015-05-09 17:11:01 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/users/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 24, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:13:31 Error: [MissingViewException] View file "Pages\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\add.ctp',
+)
+Request URL: /sss_app/pages/add
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(470): View->_getViewFileName('add')
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render('add', NULL)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PagesController.php(68): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-09 17:14:31 Error: [MissingViewException] View file "Pages\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\add.ctp',
+)
+Request URL: /sss_app/pages/add
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(470): View->_getViewFileName('add')
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render('add', NULL)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PagesController.php(68): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-09 17:14:39 Error: [MissingViewException] View file "Pages\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\add.ctp',
+)
+Request URL: /sss_app/pages/add
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(470): View->_getViewFileName('add')
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render('add', NULL)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PagesController.php(68): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-09 17:16:07 Error: [MissingViewException] View file "Pages\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\add.ctp',
+)
+Request URL: /sss_app/pages/add
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\View\View.php(470): View->_getViewFileName('add')
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(960): View->render('add', NULL)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\Controller\PagesController.php(68): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-09 17:54:53 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Posts\view.ctp, line 61]
+2015-05-09 17:54:54 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /sss_app/posts/view/43
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 17:55:10 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Posts\view.ctp, line 61]
+2015-05-09 17:55:11 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /sss_app/posts/view/43
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 61, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 18:03:26 Error: [MissingActionException] Action PostsController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'webroot',
+)
+Request URL: /sss_app/posts/webroot/cms_uploads/id_Id_File%20Name
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-09 18:04:28 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/webroot/cms_uploads/id_Id_File%20Name
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 18:05:47 Error: [MissingControllerException] Controller class CmsUploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'CmsUploadsController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app//cms_uploads/id_Id_File%20Name
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 18:10:49 Error: Fatal Error (4): syntax error, unexpected 'Post' (T_STRING) in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Posts\view.ctp, line 20]
+2015-05-09 18:10:50 Error: [FatalErrorException] syntax error, unexpected 'Post' (T_STRING)
+Request URL: /sss_app/posts/view/92
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 20, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 20, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 19:33:54 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Pages\index.ctp, line 2]
+2015-05-09 19:33:54 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 19:35:10 Error: Fatal Error (4): syntax error, unexpected 'to' (T_STRING), expecting ',' or ';' in [E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\View\Pages\index.ctp, line 2]
+2015-05-09 19:35:10 Error: [FatalErrorException] syntax error, unexpected 'to' (T_STRING), expecting ',' or ';'
+Request URL: /sss_app/
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2, Array)
+#2 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\ScottMcwee_s...', 2, Array)
+#3 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-09 20:13:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/css/img/images.jpg
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 20:14:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /sss_app/css/img/images.jpg
+Stack Trace:
+#0 E:\ScottMcwee_sss1\xampp\htdocs\sss_app\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
